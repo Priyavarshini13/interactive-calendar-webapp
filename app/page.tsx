@@ -80,13 +80,13 @@ export default function Home() {
           {/* CALENDAR WITH VIDEO */}
           <div className="relative rounded-xl overflow-hidden">
 
-            {/* VIDEO BACKGROUND */}
+            {/* VIDEO */}
             <video
               autoPlay
               loop
               muted
               playsInline
-              className="absolute inset-0 w-full h-full object-cover opacity-30"
+              className="absolute inset-0 w-full h-full object-cover opacity-40 z-0"
             >
               <source
                 src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9715/1080p.mp4"
@@ -94,10 +94,10 @@ export default function Home() {
               />
             </video>
 
-            {/* OVERLAY */}
-            <div className="absolute inset-0 bg-white/70"></div>
+            {/* LIGHT OVERLAY */}
+            <div className="absolute inset-0 bg-white/40 backdrop-blur-sm z-0"></div>
 
-            {/* CALENDAR CONTENT */}
+            {/* CONTENT */}
             <div className="relative z-10 p-4">
 
               {/* DAYS */}
