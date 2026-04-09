@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Deployed in Vercel: https://interactive-calendar-webapp-c3diej5qa-priyavarshini13s-projects.vercel.app/
 
-## Getting Started
+# 📅 Interactive Calendar Component
 
-First, run the development server:
+A modern, responsive, and interactive wall calendar component built using **Next.js** and **Tailwind CSS**, designed with a focus on usability, clean UI, and real-world planning.
+
+---
+
+## 🚀 Live Demo
+
+👉 https://interactive-calendar-webapp-c3diej5qa-priyavarshini13s-projects.vercel.app
+
+---
+
+## ✨ Features
+
+- 📅 **Wall Calendar Aesthetic**
+  - Clean layout inspired by real-world wall calendars
+  - Hero image with month/year display
+
+- 🔢 **Date Range Selection**
+  - Select start and end dates
+  - Highlights start, end, and intermediate dates
+
+- 📝 **Notes Section**
+  - Add notes for planning
+  - Data persists using **localStorage**
+
+- 🔴 **Smart Highlights**
+  - Sundays highlighted in red
+  - Government holidays (Jan 1, 14, 26) marked
+  - Current date visually indicated
+
+- 🎥 **Creative UI Enhancement**
+  - Subtle animated/video background for improved visual experience
+  - Balanced with overlay for readability
+
+- 📱 **Fully Responsive**
+  - Works smoothly on mobile and desktop
+  - Adaptive spacing and layout
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
 
 ```bash
+git clone https://github.com/Priyavarshini13/interactive-calendar-webapp.git
+cd interactive-calendar-webapp
+2️⃣ Install dependencies
+npm install
+3️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4️⃣ Open in browser
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎯 Key Functionality
+📅 Calendar Logic
+January 2026 correctly aligned (starts on Thursday)
+Dynamic grid rendering with placeholders
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧠 State Management
+React useState for date selection and notes
+useEffect for persistence (localStorage)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎨 UI/UX Focus
+Smooth hover and selection animations
+Clean typography and spacing
+Visual hierarchy maintained
 
-## Learn More
+📸 Demo Walkthrough
+The application demonstrates:
+Date range selection (e.g., Jan 9 → Jan 11)
+Notes input and persistence after refresh
+Holiday and Sunday highlighting
+Responsive behavior across screen sizes
 
-To learn more about Next.js, take a look at the following resources:
+💡 Design Decisions
+Used Tailwind CSS for rapid and consistent UI styling
+Maintained separation of concerns within component
+Focused on user experience over complexity
+Added subtle creative enhancements without affecting usability
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📌 Future Improvements
+Notes per individual date or range
+Month navigation (previous / next)
+Holiday tooltips
+Theme switching (dynamic based on image/video)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🎯 Conclusion
+This project demonstrates a balance between functionality, design, and usability, with a focus on building a real-world interactive component rather than just static UI.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👩‍💻 Author
+Priyavarshini V
