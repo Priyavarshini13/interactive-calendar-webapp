@@ -87,7 +87,7 @@ export default function Home() {
               muted
               className="absolute inset-0 w-full h-full object-cover opacity-65"
             >
-              <source src="/video.mp4" type="video/mp4" />
+              <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9715/1080p.mp4" type="video/mp4" /" type="video/mp4" />
             </video>
 
             {/* OVERLAY */}
