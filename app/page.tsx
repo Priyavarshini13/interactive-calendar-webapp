@@ -85,9 +85,12 @@ export default function Home() {
               autoPlay
               loop
               muted
-              className="absolute inset-0 w-full h-full object-cover opacity-65"
+              className="absolute inset-0 w-full h-full object-cover opacity-25"
             >
-              <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9715/1080p.mp4" type="video/mp4" /" type="video/mp4" />
+              <source
+                src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9715/1080p.mp4"
+                type="video/mp4"
+              />
             </video>
 
             {/* OVERLAY */}
