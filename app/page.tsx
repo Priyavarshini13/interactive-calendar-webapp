@@ -85,7 +85,8 @@ export default function Home() {
               autoPlay
               loop
               muted
-              className="absolute inset-0 w-full h-full object-cover opacity-25"
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover opacity-30"
             >
               <source
                 src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-city-at-night-9715/1080p.mp4"
